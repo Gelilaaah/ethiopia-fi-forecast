@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editors
+.vscode/
+.idea/
+
+# Data (keep raw + processed tracked for reproducibility on this project;
+# uncomment below if the dataset grows too large for git)
+# data/processed/*.csv
+
+# Models (large artifacts, if any get pickled)
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
