@@ -1,8 +1,8 @@
-\# 📈 Forecasting Financial Inclusion in Ethiopia
+# 📈 Forecasting Financial Inclusion in Ethiopia
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,11 +14,11 @@ The project was completed as part of the 10 Academy AI Mastery Program.
 
 
 
-\---
+---
 
 
 
-\## Business Problem
+## Business Problem
 
 
 
@@ -26,15 +26,15 @@ Ethiopia's financial sector has undergone significant digital transformation thr
 
 
 
-\- Telebirr
+- Telebirr
 
-\- M-Pesa Ethiopia
+- M-Pesa Ethiopia
 
-\- EthSwitch interoperability
+- EthSwitch interoperability
 
-\- National Financial Inclusion Strategy (NFIS-II)
+- National Financial Inclusion Strategy (NFIS-II)
 
-\- Fayda Digital ID
+- Fayda Digital ID
 
 
 
@@ -46,40 +46,39 @@ This project answers the following questions:
 
 
 
-\- What factors drive financial inclusion in Ethiopia?
+- What factors drive financial inclusion in Ethiopia?
 
-\- How do policies, product launches, and infrastructure investments influence financial inclusion?
+- How do policies, product launches, and infrastructure investments influence financial inclusion?
 
-\- How will Account Ownership and Digital Payment Usage evolve in 2025–2027?
-
-
-
-\---
+- How will Account Ownership and Digital Payment Usage evolve in 2025–2027?
 
 
 
-\## Objectives
+---
 
 
 
-\- Explore and enrich Ethiopia's financial inclusion dataset
-
-\- Perform Exploratory Data Analysis (EDA)
-
-\- Model the impact of major financial events
-
-\- Forecast financial inclusion indicators
-
-\- Build an interactive Streamlit dashboard for stakeholders
+## Objectives
 
 
 
-\---
+- Explore and enrich Ethiopia's financial inclusion dataset
+
+- Perform Exploratory Data Analysis (EDA)
+
+- Model the impact of major financial events
+
+- Forecast financial inclusion indicators
+
+- Build an interactive Streamlit dashboard for stakeholders
 
 
 
-\## Project Structure
+---
 
+
+
+## Project Structure
 
 
 ethiopia-fi-forecast/
@@ -136,81 +135,71 @@ ethiopia-fi-forecast/
 
 └── .gitignore
 
-\---
+---
 
 
-
-\## Dataset
-
+## Dataset
 
 
 The project uses a unified financial inclusion dataset containing:
 
 
+- Financial inclusion observations
 
-\- Financial inclusion observations
+- National policy events
 
-\- National policy events
+- Product launches
 
-\- Product launches
+- Infrastructure milestones
 
-\- Infrastructure milestones
+- Event-impact relationships
 
-\- Event-impact relationships
-
-\- Government targets
-
+- Government targets
 
 
 Additional datasets were incorporated during the enrichment phase using trusted sources including:
 
 
+- World Bank Global Findex
 
-\- World Bank Global Findex
+- National Bank of Ethiopia
 
-\- National Bank of Ethiopia
+- Ethio Telecom
 
-\- Ethio Telecom
+- GSMA
 
-\- GSMA
+- IMF Financial Access Survey
 
-\- IMF Financial Access Survey
+- EthSwitch
 
-\- EthSwitch
-
-\- Fayda Digital ID
-
-
-
-\---
+- Fayda Digital ID
 
 
 
-\## Workflow
+---
 
 
-
-\### Task 1 — Data Exploration \& Enrichment
-
+## Workflow
 
 
-\- Loaded and explored the unified dataset
-
-\- Understood the data schema
-
-\- Added additional observations and events
-
-\- Documented all enrichment sources
-
-\- Created an enriched dataset
+### Task 1 — Data Exploration \& Enrichment
 
 
+- Loaded and explored the unified dataset
 
-\---
+- Understood the data schema
+
+- Added additional observations and events
+
+- Documented all enrichment sources
+
+- Created an enriched dataset
 
 
+---
 
-\### Task 2 — Exploratory Data Analysis
+
+### Task 2 — Exploratory Data Analysis
 
 
 
@@ -218,19 +207,19 @@ Performed analysis on:
 
 
 
-\- Financial inclusion trends
+- Financial inclusion trends
 
-\- Account ownership growth
+- Account ownership growth
 
-\- Digital payment adoption
+- Digital payment adoption
 
-\- Infrastructure indicators
+- Infrastructure indicators
 
-\- Event timelines
+- Event timelines
 
-\- Correlation analysis
+- Correlation analysis
 
-\- Data quality assessment
+- Data quality assessment
 
 
 
@@ -238,23 +227,23 @@ Key outputs include:
 
 
 
-\- Time-series visualizations
+- Time-series visualizations
 
-\- Growth analysis
+- Growth analysis
 
-\- Correlation heatmaps
+- Correlation heatmaps
 
-\- Event timeline
+- Event timeline
 
-\- Insight summary
-
-
-
-\---
+- Insight summary
 
 
 
-\### Task 3 — Event Impact Modeling
+---
+
+
+
+### Task 3 — Event Impact Modeling
 
 
 
@@ -266,23 +255,23 @@ The analysis includes:
 
 
 
-\- Event-Indicator association matrix
+- Event-Indicator association matrix
 
-\- Lag effect modeling
+- Lag effect modeling
 
-\- Comparable country evidence
+- Comparable country evidence
 
-\- Historical validation
+- Historical validation
 
-\- Assumption documentation
-
-
-
-\---
+- Assumption documentation
 
 
 
-\### Task 4 — Forecasting
+---
+
+
+
+### Task 4 — Forecasting
 
 
 
@@ -290,9 +279,9 @@ Forecasted the following indicators:
 
 
 
-\- Account Ownership Rate (Access)
+- Account Ownership Rate (Access)
 
-\- Digital Payment Usage
+- Digital Payment Usage
 
 
 
@@ -300,11 +289,11 @@ Forecast horizon:
 
 
 
-\- 2025
+- 2025
 
-\- 2026
+- 2026
 
-\- 2027
+- 2027
 
 
 
@@ -312,11 +301,11 @@ Scenarios generated:
 
 
 
-\- Baseline
+- Baseline
 
-\- Optimistic
+- Optimistic
 
-\- Pessimistic
+- Pessimistic
 
 
 
@@ -324,11 +313,11 @@ Forecast uncertainty is represented using confidence intervals.
 
 
 
-\---
+---
 
 
 
-\### Task 5 — Interactive Dashboard
+### Task 5 — Interactive Dashboard
 
 
 
@@ -336,57 +325,57 @@ Developed a Streamlit dashboard featuring:
 
 
 
-\- Financial inclusion overview
+- Financial inclusion overview
 
-\- Interactive trend analysis
+- Interactive trend analysis
 
-\- Event impact visualization
+- Event impact visualization
 
-\- Forecast explorer
+- Forecast explorer
 
-\- Scenario comparison
+- Scenario comparison
 
-\- Downloadable data
-
-
-
-\---
+- Downloadable data
 
 
 
-\## Technologies Used
+---
 
 
 
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Plotly
-
-\- Seaborn
-
-\- Statsmodels
-
-\- Scikit-learn
-
-\- Streamlit
-
-\- Jupyter Notebook
-
-\- Git \& GitHub
+## Technologies Used
 
 
 
-\---
+- Python
+
+- Pandas
+
+- NumPy
+
+- Matplotlib
+
+- Plotly
+
+- Seaborn
+
+- Statsmodels
+
+- Scikit-learn
+
+- Streamlit
+
+- Jupyter Notebook
+
+- Git \& GitHub
 
 
 
-\## Installation
+---
+
+
+
+## Installation
 
 
 
@@ -430,11 +419,10 @@ Install dependencies
 
 pip install -r requirements.txt
 
-\---
+---
 
 
-
-\## Running the Dashboard
+## Running the Dashboard
 
 
 
@@ -444,75 +432,69 @@ Launch the Streamlit dashboard:
 
 streamlit run dashboard/app.py
 
-\---
+---
 
 
 
-\## Results
+## Results
 
 
 
 The project provides:
 
 
+- Enriched financial inclusion dataset
 
-\- Enriched financial inclusion dataset
+- Exploratory analysis of Ethiopia's digital finance ecosystem
 
-\- Exploratory analysis of Ethiopia's digital finance ecosystem
+- Event-impact association matrix
 
-\- Event-impact association matrix
+- Forecasts for 2025–2027
 
-\- Forecasts for 2025–2027
-
-\- Interactive dashboard for policymakers and stakeholders
-
+- Interactive dashboard for policymakers and stakeholders
 
 
-\---
+---
 
 
 
-\## Future Improvements
+## Future Improvements
 
 
+- Incorporate quarterly financial inclusion data
 
-\- Incorporate quarterly financial inclusion data
+- Use advanced forecasting models such as Prophet and LSTM
 
-\- Use advanced forecasting models such as Prophet and LSTM
+- Integrate real-time financial indicators
 
-\- Integrate real-time financial indicators
+- Expand regional-level forecasting
 
-\- Expand regional-level forecasting
-
-\- Include macroeconomic variables
-
+- Include macroeconomic variables
 
 
-\---
+---
 
 
-
-\## References
-
+## References
 
 
-\- World Bank Global Findex
+- World Bank Global Findex
 
-\- IMF Financial Access Survey
+- IMF Financial Access Survey
 
-\- National Bank of Ethiopia
+- National Bank of Ethiopia
 
-\- Ethio Telecom
+- Ethio Telecom
 
-\- GSMA State of the Industry Report
+- GSMA State of the Industry Report
 
-\- EthSwitch
+- EthSwitch
 
-\- Fayda Digital ID
+- Fayda Digital ID
 
-\- Streamlit Documentation
+- Streamlit Documentation
 
-\- Statsmodels Documentation
+- Statsmodels Documentation
 
 
 
